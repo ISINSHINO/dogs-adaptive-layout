@@ -1,0 +1,375 @@
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+
+  .container-big,
+  .footer--container-big,
+  .services--container-big,
+  .container-small,
+  .header--container-small,
+  .promo--container-small,
+  .workers--container-small,
+  .advertisement--container-small {
+    width: 100%;
+  }
+
+  /******************** HEADER *************************/
+
+  .menu {
+    padding-top: 31px;
+  }
+
+  .menu__logo {
+    order: 2;
+    padding-left: 25px;
+  }
+
+  .menu__hamburger {
+    display: block;
+    padding-left: 16px;
+  }
+
+  .menu__nav {
+    order: 1;
+  }
+
+  .menu__nav {
+    display: none;
+  }
+
+  .menu__phone {
+    order: 3;
+  }
+
+  .menu__phone > .menu__number {
+    display: none;
+  }
+
+  .menu__image {
+    width: 36px;
+    height: 36px;
+    padding-right: 18px;
+  }
+
+  /******************** PROMO *************************/
+
+  .promo {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    height: 386px;
+    padding: 0;
+  }
+
+  .promo__slogan {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 65px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .promo__image {
+    height: 322px;
+    z-index: -999;
+    position: absolute;
+    top: 15%;
+    left: 41%;
+  }
+
+  .promo__title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 16px;
+  }
+
+  .promo__subtitle {
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    padding-bottom: 44px;
+  }
+
+  .promo__button {
+    width: 170px;
+    height: 45px;
+  }
+
+    /******************** SERVICES *************************/
+
+  .services__container {
+    padding-top: 147px;
+    justify-content: center;
+  }
+
+  .services {
+    background: url(../images/promo-background.png) 36% 83% no-repeat;
+    margin-bottom: 0;
+    height: 820px;
+  }
+
+  .services__item:first-child {
+    margin-left: 0;
+    padding-left: 8px;
+  }
+
+  .services__item:not(:first-child) {
+    display: none;
+  }
+
+  .services__item:first-child > .item__price {
+    top: 34.5%;
+    left: 68.5%;
+  }
+
+  .item__title {
+    padding-top: 75px;
+    padding-bottom: 27px;
+  }
+
+  .item__text {
+    font-size: 14.5px;
+  }
+
+  .services__slider,
+  .workers__slider,
+  .reviews__slider {
+    padding-top: 39px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+  }
+
+  .slider__item {
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #4B5169;
+  }
+
+  .slider__item--active {
+    width: 15px;
+    background-color: #4AC9CE;
+    border-radius: 3px;
+  }
+
+  /******************** WORKERS *************************/
+
+  .workers br,
+  .workers__arrow,
+  .workers__item:not(:nth-of-type(2)){
+    display: none;
+  }
+
+  .workers__slider{
+    padding-top: 61px;
+  }
+
+  .workers__title {
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
+
+  .workers__container {
+    justify-content: center;
+  }
+
+  .workers__item {
+    width:288px;
+    height: 345px;
+    margin: 0;
+  }
+
+  .item__article {
+    font-size: 15px;
+    max-width: 254px;
+    max-height: 180px;
+    overflow: hidden;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-right: 0;
+  }
+
+  .item__changed-text{
+    letter-spacing: 1.4px;
+  }
+
+  .item__button {
+    left: 23%;
+    bottom: -6.5%;
+    width: 156px;
+    height: 42px;
+  }
+
+  .item__employee {
+    padding: 30px 25px 16px 25px;
+  }
+
+  .employee__info {
+    padding-left: 15px;
+  }
+
+  .employee__image {
+    width: 72px;
+    height: 72px;
+  }
+
+  .employee__name {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .employee__age {
+    font-size: 11px;
+  }
+
+  .container-big__lines {
+    background-image: url(../images/lines-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-x: -4.5%;
+    margin-top: 40px;
+    height: 109px;
+  }
+
+  /******************** REVIEWS *************************/
+  .reviews {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .reviews__title {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    padding: 0 29px 40px 30px;
+  }
+
+  .reviews__element:not(:nth-of-type(2)),
+  .reviews__arrows {
+    display: none;
+  }
+
+  .reviews__element {
+    min-width: 288px;
+    height: 332px;
+  }
+
+  .element__author {
+    padding: 28px 25px 14px 25px;
+  }
+
+  .element__image {
+    width: 72px;
+    height: 72px;
+  }
+
+  .element__about {
+    padding-left: 15px;
+  }
+
+  .element__name {
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+
+  .element__info {
+    font-size: 12px;
+  }
+
+  .element__article {
+    font-size: 14.7px;
+    max-width: 254px;
+    max-height: 180px;
+    overflow: hidden;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-right: 0;
+  }
+  
+  /******************** ADVERTISEMENT *************************/
+
+  .advertisement {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .advertisement__title {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    padding-bottom: 13px;
+  }
+
+  .info__subtitle {
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 38px;
+  }
+
+  .advertisement__wrapper {
+    flex-direction: column;
+  }
+
+  .advertisement__background {
+    display: none;
+  }
+
+  .advertisement__form {
+    flex-direction: column;
+    padding-left: 0;
+    row-gap: 20px;
+  }
+
+  .form__input {
+    width: 288px;
+    height: 45px;
+    font-size: 15px;
+    padding-left: 18px;
+  }
+
+  .form__input::placeholder {
+    font-size: 15px;
+  }
+
+  .form__button {
+    align-self: center;
+    margin-top: 20px;
+    width: 170px;
+    height: 45px;
+    margin-bottom: 50px;
+  }
+
+  /******************** FOOTER *************************/
+
+  .footer {
+    background: url(../images/footer-background-mobile.svg) 23% 7%;
+    height: 270px;
+    padding-top: 0;
+  }
+
+  .footer__icons {
+    flex-direction: column;
+    padding-top: 55px;
+    row-gap: 34px;
+  }
+
+  .icons__socials {
+    padding-right: 0;
+    column-gap: 17px;
+  }
+
+  .icons__logo {
+    order: 2;
+  }
+
+  .footer__copyright {
+    text-align: center;
+    padding-top: 25px;
+  }
+
+}

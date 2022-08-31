@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="./styles/desktop.css" rel="stylesheet">
+    <link href="./styles/mobile.css" rel="stylesheet">
+    <link href="./styles/adaptive.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love puppy</title>
+</head>
+<body>
+    <header class="header header--container-small">
+        <nav class="header__menu menu">
+            <img class="menu__logo" src="./images/logo.svg" alt="lovepuppy logo"/>
+            <img class="menu__hamburger" src="./images/bars-solid.png" alt="menu"/>
+            <ul class="menu__nav">
+                <li class="menu__link"><a href="#">home</a></li>
+                <li class="menu__link"><a href="#">walks</a></li>
+                <li class="menu__link"><a href="#">dog walkers</a></li>
+                <li class="menu__link"><a href="#">mission</a></li>
+                <li class="menu__link"><a href="#">reviewes</a></li>
+                <li class="menu__link"><a href="#">video</a></li>
+            </ul>
+            <div class="menu__phone">
+                <p class="menu__number">+1 258 3251479</p>
+                <img class="menu__image" src="./images/phone.png" alt="phone image"/>
+            </div>
+        </nav>
+    </header>
+    <section class="promo promo--container-small">
+        <div class="promo__slogan">
+            <h1 class="promo__title">dog&nbsp;walking&nbsp;services</h1>
+            <h3 class="promo__subtitle">we love your puppy!</h3>
+            <button class="promo__button">book a walk</button>
+        </div>
+        <img class="promo__image" src="./images/dog-main-page.png" alt="happy dogs"/>
+    </section> 
+    <section class="services services--container-big"> 
+        <div class="services__container">
+            <div class="services__item item">
+                <img class="item__image" src="./images/dog-walk.png" alt="group walks"/>
+                <p class="item__price">$20</p>
+                <h4 class="item__title">2 hour group walks</h4>
+                <ul class="item__benefits">
+                    <li class="item__text">
+                        Dogs walk between 3&#8211;5 miles
+                    </li>
+                    <li class="item__text">
+                        Professional walker
+                    </li>
+                    <li class="item__text">
+                        Food and water included
+                    </li>
+                </ul>
+                <a class="item__link">book walk</a>
+            </div>
+            <div class="services__item item">
+                <img class="item__image" src="./images/solo-walk.png" alt="solo walks"/>
+                <p class="item__price">$30</p>
+                <h4 class="item__title">solo walks</h4>
+                <ul class="item__benefits">
+                    <li class="item__text">
+                        3 hour walk with games
+                    </li>
+                    <li class="item__text">
+                        Professional walker
+                    </li>
+                    <li class="item__text">
+                        Food and water included
+                    </li>
+                </ul>
+                <a class="item__link">book walk</a>
+            </div>
+            <div class="services__item item">
+                <img class="item__image" src="./images/dog-sitter.png" alt="dog sitter"/>
+                <p class="item__price item__price--time">$10</p>
+                <h4 class="item__title">dog sitter</h4>
+                <ul class="item__benefits">
+                    <li class="item__text">
+                        Like a child sitter, but with dog
+                    </li>
+                    <li class="item__text">
+                        Good care
+                    </li>
+                    <li class="item__text">
+                        Food and water included
+                    </li>
+                </ul>
+                <a class="item__link">book sitter</a>
+            </div>
+        </div>
+        <div class="services__slider slider">
+            <div class="slider__item slider__item--active"></div>
+            <div class="slider__item"></div>
+            <div class="slider__item"></div>
+        </div>
+    </section>
+    <div class="container-big">
+        <section class="workers workers--container-small">
+            <div class="workers__arrow arrow">
+                <div class="arrow__circle arrow__circle--left"></div>
+                <img class="arrow__pointer arrow__pointer--left" src="./images/arrow-right.svg" alt="arrow-pointer"/>
+            </div>
+            <h2 class="workers__title">our dog walkers</h2>
+            <div class="workers__container">
+                <article class="workers__item item">
+                    <div class="item__employee employee">
+                        <img class="employee__image" src="./images/employee-first.png" alt="employee photo"/>
+                        <div class="employee__info">
+                            <p class="employee__name">Ann Kening</p>
+                            <p class="employee__age">25 years</p>
+                        </div>
+                    </div>
+                    <p class="item__article">
+                        Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim, quis nostrud exercitation ullamco laboris aliquip ex ea commodo consequat.
+                    </p>
+                    <button class="item__button">see more</button>
+                </article>
+                <article class="workers__item item">
+                    <div class="item__employee employee">
+                        <img class="employee__image" src="./images/employee-second.png" alt="employee photo"/>
+                        <div class="employee__info">
+                            <p class="employee__name">Gim Brown</p>
+                            <p class="employee__age">21 years</p>
+                        </div>
+                    </div>
+                    <p class="item__article">
+                        Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt <span class="item__changed-text">ut <br> et</span> dolore magna aliqua. Ut enim ad minim, quis nostrud exercitation ullamco laboris aliquip ex ea <span class="item__specific-text">commodo consequat.</span> Duis ate irure dolor in <span class="item__different-text">reprehenderit in voluptate.</span>                
+                    </p>
+                    <button class="item__button">see more</button>
+                </article>
+                <article class="workers__item item">
+                    <div class="item__employee employee">
+                        <img class="employee__image" src="./images/employee-third.png" alt="employee photo"/>
+                        <div class="employee__info">
+                            <p class="employee__name">Adie Con</p>
+                            <p class="employee__age">20 years</p>
+                        </div>
+                    </div>
+                    <p class="item__article"> 
+                        Lorem ipsum dolor sit amet, consectetur<br> elit, sed do eiusmod tempor incididunt ut<br> et dolore magna aliqua. Ut enim ad minim,<br> quis nostrud exercitation ullamco laboris<br> aliquip ex ea commodo consequat.<br> Ut enim ad minim.
+                    </p>
+                    <button class="item__button">see more</button>
+                </article>
+            </div>
+            <div class="workers__arrow arrow">
+                <div class="arrow__circle arrow__circle--right"></div>
+                <img class="arrow__pointer arrow__pointer--right" src="./images/arrow-right.svg" alt="arrow-pointer"/>
+            </div>
+            <div class="workers__slider slider">
+                <div class="slider__item slider__item--active"></div>
+                <div class="slider__item"></div>
+                <div class="slider__item"></div>
+            </div>
+        </section>
+        <div class="container-big__lines"></div>
+    </div>
+
+    <section class="reviews">
+        <h2 class="reviews__title">what people say about us</h2>
+        <div class="reviews__container">
+            <article class="reviews__element element">
+                <div class="element__author">
+                    <img class="element__image" src="./images/author-first.png" alt="author photo"/>
+                    <div class="element__about">
+                        <p class="element__name">Jane Fill</p>
+                        <p class="element__info">Mops&#39;s owner</p>
+                    </div>
+                </div>
+                <p class="element__article">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt <span class="element__different-text">ut et</span> dolore magna aliqua. Ut enim ad minim, quis nostrud exercitation ullamco laboris aliquip ex ea commodo <span class="element__specific-text">consequat. Duis ate rure</span> dolor in reprehenderit in voluptate.                
+                </p>
+            </article>
+            <article class="reviews__element element">
+                <div class="element__author">
+                    <img class="element__image" src="./images/author-second.png" alt="author photo"/>
+                    <div class="element__about">
+                        <p class="element__name">Adam Force</p>
+                        <p class="element__info">Labrador&#39;s owner</p>
+                    </div>
+                </div>
+                <p class="element__article">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt <span class="element__different-text">ut et</span> dolore magna aliqua. Ut enim ad minim, quis nostrud exercitation ullamco laboris aliquip ex ea commodo <span class="element__specific-text">consequat. Duis ate rure</span> dolor in reprehenderit in voluptate.                
+                </p>
+            </article>
+            <article class="reviews__element element">
+                <div class="element__author">
+                    <img class="element__image" src="./images/author-third.png" alt="author photo"/>
+                    <div class="element__about">
+                        <p class="element__name">Alice Ken</p>
+                        <p class="element__info">Corgi&#39;s owner</p>
+                    </div>
+                </div>
+                <p class="element__article">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt <span class="element__different-text">ut et</span> dolore magna aliqua. Ut enim ad minim, quis nostrud exercitation ullamco laboris aliquip ex ea commodo <span class="element__specific-text">consequat. Duis ate rure</span> dolor in reprehenderit in voluptate.                
+                </p>
+            </article>
+        </div>
+        <div class="reviews__arrows arrow">
+            <div class="arrow__left">
+                <div class="arrow__circle arrow__circle--left"></div>
+                <img class="arrow__pointer arrow__pointer--left" src="./images/arrow-right.svg" alt="arrow-pointer"/>
+            </div>
+            <div class="arrow__right">
+                <div class="arrow__circle arrow__circle--right"></div>
+                <img class="arrow__pointer arrow__pointer--right" src="./images/arrow-right.svg" alt="arrow-pointer"/>
+            </div>
+        </div>
+        <div class="reviews__slider slider">
+            <div class="slider__item"></div>
+            <div class="slider__item slider__item--active"></div>
+            <div class="slider__item"></div>
+        </div>
+    </section>
+
+    <section class="advertisement advertisement--container-small">
+        <h2 class="advertisement__title">book a walk</h2>
+        <img class="advertisement__background" src="./images/advert-background.svg" alt="blue circle"/>
+        <div class="advertisement__wrapper">
+            <div class="advertisement__info info">
+                <p class="info__subtitle">Leave your contact details and our<br> manager will call you soon</p>
+            </div>
+            <form class="advertisement__form form">
+                <input type="text" class="form__input form__input--name" placeholder="Your name" disabled/>
+                <input type="text" class="form__input form__input--phone" placeholder="Your phone number" disabled/>
+                <input type="submit" class="form__button" onclick="return false" value="book a walk"/>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer footer--container-big">
+        <div class="container-small">   
+            <div class="footer__icons icons">
+                <img class="icons__logo" src="./images/logo.svg" alt="love puppy"/>
+                <div class="icons__socials socials">
+                    <div class="socials__image socials__image--inst"></div>
+                    <div class="socials__image socials__image--youtube"></div>
+                    <div class="socials__image socials__image--twitter"></div>
+                </div>
+            </div>
+            <p class="footer__copyright">All rights reserved, 2018</p>
+        </div>
+    </footer>
+</body>
+</html>
